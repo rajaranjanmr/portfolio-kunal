@@ -67,14 +67,14 @@ const Projects = () => {
 		},
 	];
 	return (
-		<div className={classes.root}>
+		<div className={classes.root} id="projects">
 			<div style={{ fontSize: "50px" }}>
 				<Box p={2}>Projects</Box>
 			</div>
 			<Box m={4} p={4}>
 				<Grid container spacing={3} className={classes.cardContainer}>
 					{data.map((item, index) => (
-						<Grid item sm={12} md={6} lg={4}>
+						<Grid item sm={12} md={4} lg={3}>
 							<ProjectCard item={item} />{" "}
 						</Grid>
 					))}

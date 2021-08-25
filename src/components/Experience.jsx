@@ -101,7 +101,7 @@ export default function Experience() {
 		},
 	];
 	return (
-		<div className={classes.root}>
+		<div className={classes.root} id="experience">
 			<div style={{ fontSize: "50px" }}>
 				<Box p={2}>Experience</Box>
 			</div>

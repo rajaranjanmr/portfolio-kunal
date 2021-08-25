@@ -15,6 +15,11 @@ const useStyles = makeStyles((theme) => ({
 	rightContainer: {
 		margin: theme.spacing(4),
 	},
+	links: {
+		padding: "10px",
+		textDecoration: "none",
+		color: "#61DAFB",
+	},
 }));
 const Header = () => {
 	const classes = useStyles();
@@ -22,8 +27,18 @@ const Header = () => {
 		<div className={classes.root}>
 			<Box className={classes.leftContainer}>NAMASTE 🙏</Box>
 			<Box className={classes.rightContainer}>
-				<div style={{ fontSize: "30px" }}>🔆</div>
-				{/* <Brightness4Icon fontSize="large" /> */}
+				<a className={classes.links} href="#experience">
+					Experience
+				</a>
+				<a className={classes.links} href="#projects">
+					Projects
+				</a>
+				<a className={classes.links} href="#blogs">
+					Blogs
+				</a>
+				<a className={classes.links} href="#contact">
+					Contact
+				</a>
 			</Box>
 		</div>
 	);

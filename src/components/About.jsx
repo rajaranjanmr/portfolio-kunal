@@ -44,7 +44,7 @@ const About = () => {
 	const classes = useStyles();
 
 	return (
-		<div className={classes.root}>
+		<div className={classes.root} id="contact">
 			<div style={{ fontSize: "50px" }}>
 				<Box p={2}>About </Box>
 			</div>

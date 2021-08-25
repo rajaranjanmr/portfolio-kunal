@@ -75,7 +75,7 @@ const Skills = () => {
 		{ logo: java_logo, def: "JAVA" },
 	];
 	return (
-		<div className={classes.root}>
+		<div className={classes.root} id="skills">
 			<div style={{ fontSize: "50px" }}>
 				<Box p={2}>Skils </Box>
 			</div>

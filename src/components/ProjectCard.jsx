@@ -7,6 +7,7 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
+import { motion } from "framer-motion";
 
 const useStyles = makeStyles({
 	root: {
@@ -16,6 +17,7 @@ const useStyles = makeStyles({
 		alignItems: "left",
 		// boxShadow: "0px 10px 30px #53d61f",
 		borderRadius: "20px",
+		border: "2px solid #000",
 	},
 	media: {
 		height: 400,
@@ -53,7 +55,11 @@ export default function ProfileCard(props) {
 						{description}
 					</Typography>
 					<div
-						style={{ display: "flex", flexDirection: "row", marginTop: "10px" }}
+						style={{
+							display: "flex",
+							flexDirection: "row",
+							marginTop: "10px",
+						}}
 					>
 						{technology.map((item, index) => (
 							<Box>
@@ -65,6 +71,7 @@ export default function ProfileCard(props) {
 					</div>
 				</CardContent>
 			</CardActionArea>
+
 			<CardActions>
 				<Box>
 					<a href={codeLink} target="_blank">
