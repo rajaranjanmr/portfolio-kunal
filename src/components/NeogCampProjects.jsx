@@ -62,8 +62,8 @@ const NeogCampProjects = () => {
 			],
 			technology: ["react js", "react-router"],
 			imageURL: FunWithTriangles,
-			codeLink: "https://github.com/nikhiljugale007/react-weather-app",
-			liveLink: "https://github.com/nikhiljugale007/react-weather-app",
+			codeLink: "https://github.com/nikhiljugale007/fun-with-triangles",
+			liveLink: "https://fun-with-triangles-react-app.netlify.app/",
 		},
 		{
 			name: "Lucky Birhtday",
