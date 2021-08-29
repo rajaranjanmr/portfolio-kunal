@@ -16,11 +16,12 @@ const useStyles = makeStyles({
 		justifyContent: "flex-start",
 		alignItems: "left",
 		// boxShadow: "0px 10px 30px #53d61f",
+		// maxHeight: "300px",
 		borderRadius: "20px",
 		border: "2px solid #000",
 	},
 	media: {
-		height: 400,
+		height: 200,
 	},
 	desc: {
 		display: "flex",

@@ -3,6 +3,7 @@ import { makeStyles, Box, Grid, Paper } from "@material-ui/core";
 import ProjectCard from "./ProjectCard";
 import codeKIT from "../images/codeKIT.png";
 import mymode from "../images/mymode.png";
+import mypoll from "../images/MyPoll.png";
 import sortingVisulizer from "../images/sortingVisulizer.png";
 import weather_app from "../images/weather_app.png";
 
@@ -48,10 +49,12 @@ const Projects = () => {
 		},
 
 		{
-			name: "Weather App",
-			description: ["Simple weather app using react js weatherapi"],
-			technology: ["react js", "rest api"],
-			imageURL: weather_app,
+			name: "My Poll",
+			description: [
+				"Built this realtime Polling app similar to Fast Poll. Users can create and manage anonymous polls with ease.",
+			],
+			technology: ["react js", "MongoDb", "rest api"],
+			imageURL: mypoll,
 			codeLink: "https://github.com/nikhiljugale007/react-weather-app",
 			liveLink: "https://github.com/nikhiljugale007/react-weather-app",
 		},
