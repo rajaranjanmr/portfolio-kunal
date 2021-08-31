@@ -55,8 +55,8 @@ const Projects = () => {
 			],
 			technology: ["react js", "MongoDb", "rest api"],
 			imageURL: mypoll,
-			codeLink: "https://github.com/nikhiljugale007/react-weather-app",
-			liveLink: "https://github.com/nikhiljugale007/react-weather-app",
+			codeLink: "https://github.com/nikhiljugale007/My-Poll",
+			liveLink: "https://my-poll.netlify.app/",
 		},
 		{
 			name: "Sorting Visualizer",

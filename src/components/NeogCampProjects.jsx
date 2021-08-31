@@ -88,7 +88,7 @@ const NeogCampProjects = () => {
 		{
 			name: "Web Series Recommender",
 			description: ["Find out some of the exciting football matches played."],
-			technology: ["graphics.h", "C++"],
+			technology: ["react js"],
 			imageURL: WebSeriesRecc,
 			codeLink:
 				"https://codesandbox.io/s/condescending-worker-j2se5?file=/src/App.js",
@@ -107,7 +107,7 @@ const NeogCampProjects = () => {
 		{
 			name: "😃Mood-Emoji😃",
 			description: ["You can know the meaning of emojis by using this app"],
-			technology: ["graphics.h", "C++"],
+			technology: ["html", "css", "javascript"],
 			imageURL: MoodEmoji,
 			codeLink: "https://codesandbox.io/s/moodemoji-8b1mr",
 			liveLink: "https://8b1mr.csb.app/",
