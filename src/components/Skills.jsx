@@ -81,22 +81,16 @@ const Skills = () => {
 			</div>
 			<div>
 				<Box m={4} p={4}>
-					<div className={classes.allLogoContainer}>
+					<Grid container  spacing={6}  className={classes.allLogoContainer}>
 						{data.map((item, index) => (
-							<motion.div
-								whileHover={{
-									scale: 1.2,
-									transition: {
-										duration: 0.2,
-									},
-								}}
-							>
+                        <Grid item xs={6} md={4} lg={1} >
 								<div
 									className={classes.logoContainer}
 									style={{ backgroundImage: `url(${item.logo})` }}
-								></div>
-								{item.def}
-							</motion.div>
+                                    >								
+                                    </div>
+							
+                        </Grid>
 						))}
 						{/* <div
 							className={classes.logoContainer}
@@ -123,7 +117,7 @@ const Skills = () => {
 							className={classes.logoContainer}
 							style={{ backgroundImage: `url(${java_logo})` }}
 						></div> */}
-					</div>
+					</Grid>
 				</Box>
 			</div>
 		</div>

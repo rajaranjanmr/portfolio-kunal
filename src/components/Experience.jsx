@@ -55,6 +55,13 @@ const useStyles = makeStyles((theme) => ({
 		justifyContent: "right",
 		alignItems: "right",
 	},
+
+    timeline:{
+        align:"alternate",
+        ['@media (min-width:780px)']: { // eslint-disable-line no-useless-computed-key
+            align: 'right'
+        }
+    }
 }));
 
 export default function Experience() {

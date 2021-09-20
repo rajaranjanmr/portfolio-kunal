@@ -32,7 +32,7 @@ const Projects = () => {
 			description: [
 				"Online coding platform where students can solve coding questions",
 			],
-			technology: ["react js", "mongoDb", "express", "material ui"],
+			technology: ["react js", "mongoDb", "express"],
 			imageURL: codeKIT,
 			codeLink: "https://github.com/nikhiljugale007/codekit",
 			liveLink: "https://codekit.netlify.app/",

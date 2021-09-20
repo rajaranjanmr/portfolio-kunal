@@ -62,6 +62,7 @@ export default function ProfileCard(props) {
 							marginTop: "10px",
 						}}
 					>
+                        <div style={{display:"flex",flexDirection:"row",maxWidth:"200px"}}>
 						{technology.map((item, index) => (
 							<Box>
 								<Button variant="outlined" style={{ fontWeight: 900 }}>
@@ -69,6 +70,7 @@ export default function ProfileCard(props) {
 								</Button>
 							</Box>
 						))}
+                        </div>
 					</div>
 				</CardContent>
 			</CardActionArea>

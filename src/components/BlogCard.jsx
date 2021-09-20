@@ -15,7 +15,7 @@ const useStyles = makeStyles({
 		flexDirection: "column",
 		justifyContent: "flex-start",
 		alignItems: "left",
-		width: "700px",
+		maxWidth: "700px",
 		borderRadius: "20px",
 		border: "2px solid #000",
 		margin: "20px",
@@ -34,6 +34,7 @@ const useStyles = makeStyles({
 		flexDirection: "column",
 		justifyContent: "center",
 		alignItems: "center",
+        margin:"20px"
 	},
 });
 
@@ -42,7 +43,7 @@ export default function BlogCard(props) {
 	const { name, description, link } = props.item;
 	return (
 		<div className={classes.main}>
-			<Grid item sm={12} md={6}>
+			<Grid item xs={12} md={6}>
 				<Card className={classes.root}>
 					<CardActionArea>
 						<CardContent className={classes.desc}>

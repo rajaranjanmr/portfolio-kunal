@@ -71,11 +71,11 @@ export default function CenteredGrid() {
 			<Grid
 				container
 				spacing={3}
-				style={{ height: "100%" }}
+				// style={{ height: "100%" }}
 				p={4}
 				className={classes.nameContainer}
 			>
-				<Grid item xs={12} md={6} className={classes.nameContainer}>
+				<Grid item xs={8} md={6} className={classes.nameContainer}>
 					<div className={classes.imageContainer}></div>
 				</Grid>
 				<Grid item xs={12} md={6} className={classes.nameContainer}>
