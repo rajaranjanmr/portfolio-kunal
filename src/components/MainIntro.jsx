@@ -105,7 +105,7 @@ export default function CenteredGrid() {
 								{" "}
 							</div>
 							<div className={classes.downloadResume}>
-								<motion.button
+								{/* <motion.button
 									whileHover={{
 										boxShadow: "0px 10px 30px hsl(185, 75%, 35%)",
 										scale: 1.2,
@@ -129,7 +129,7 @@ export default function CenteredGrid() {
 											RESUME
 										</Box>
 									</a>
-								</motion.button>
+								</motion.button> */}
 								<motion.button
 									whileHover={{
 										boxShadow: "0px 10px 30px hsl(185, 75%, 35%)",
