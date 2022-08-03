@@ -21,7 +21,7 @@ const useStyles = makeStyles({
 		border: "2px solid #000",
 	},
 	media: {
-		height: 200,
+		height: 600,
 	},
 	desc: {
 		display: "flex",
@@ -36,14 +36,14 @@ export default function ProfileCard(props) {
 	const { name, description, technology, imageURL, codeLink, liveLink } =
 		props.item;
 	return (
-		<Card className={classes.root} sm={12} md={4}>
+		<Card className={classes.root} sm={14} md={4}>
 			<CardActionArea>
 				<CardMedia
 					className={classes.media}
 					image={imageURL}
 					title="Contemplative Reptile"
 				/>
-				<CardContent className={classes.desc}>
+				{/* <CardContent className={classes.desc}>
 					<Typography
 						gutterBottom
 						variant="h5"
@@ -72,10 +72,10 @@ export default function ProfileCard(props) {
 						))}
                         </div>
 					</div>
-				</CardContent>
+				</CardContent> */}
 			</CardActionArea>
 
-			<CardActions>
+			{/* <CardActions>
 				<Box>
 					<a href={codeLink} target="_blank">
 						<Button
@@ -108,7 +108,7 @@ export default function ProfileCard(props) {
 						</Button>
 					</a>
 				</Box>
-			</CardActions>
+			</CardActions> */}
 		</Card>
 	);
 }

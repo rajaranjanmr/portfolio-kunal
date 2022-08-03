@@ -81,29 +81,28 @@ export default function CenteredGrid() {
 				<Grid item xs={12} md={6} className={classes.nameContainer}>
 					<Box className={classes.textContainer} p={10}>
 						<div>👋Hi there, my name is:</div>
-						<div style={{ fontWeight: 900 }}>Nikhil Jugale.</div>
+						<div style={{ fontWeight: 900 }}>Kunal Taleda</div>
 						<div>
 							I am{" "}
 							<Typical
 								loop={Infinity}
 								wrapper="b"
 								steps={[
-									"Developer 💻  ",
+									"Photographist 📸 ",
 									1000,
-									"Engineer 👨🏻‍🎓  ",
+									"Creative  👨🏻‍🎓  ",
 									1000,
-									"Traveller ✈️  ",
+									"Go-Getter ✈️  ",
 									1000,
 								]}
 							/>
 						</div>
 						<br />
 						<div className={classes.introText}>
-							<div> 👉Final Year CSE student</div>
-							<div> 👉Web Developer (MERN)</div>
+							<div> 👉Second year B.Com student</div>
+							<div> 👉Photographist</div>
 							<div style={{ width: "120%" }}>
 								{" "}
-								👉Frontend Developer Intern @Sapio{" "}
 							</div>
 							<div className={classes.downloadResume}>
 								<motion.button
@@ -128,6 +127,31 @@ export default function CenteredGrid() {
 											}}
 										>
 											RESUME
+										</Box>
+									</a>
+								</motion.button>
+								<motion.button
+									whileHover={{
+										boxShadow: "0px 10px 30px hsl(185, 75%, 35%)",
+										scale: 1.2,
+										transition: {
+											duration: 0.2,
+										},
+									}}
+								>
+									<a
+										href="https://drive.google.com/drive/folders/1NwFEdTq9YRPYbyI6wHX_Orfih-KyOxHk"
+										target="_blank"
+										style={{ textDecoration: "none" }}
+									>
+										<Box
+											style={{
+												fontSize: "30px",
+												fontWeight: 900,
+												color: "#000",
+											}}
+										>
+											PHOTOS
 										</Box>
 									</a>
 								</motion.button>

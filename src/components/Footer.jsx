@@ -32,7 +32,7 @@ const Footer = () => {
 					justifyContent: "center",
 				}}
 			>
-				<motion.div
+				{/* <motion.div
 					whileHover={{
 						scale: 1.2,
 						transition: {
@@ -43,8 +43,8 @@ const Footer = () => {
 					<a href="https://github.com/nikhiljugale007" target="_blank">
 						<GitHubIcon className={classes.icon} />
 					</a>
-				</motion.div>
-				<motion.div
+				</motion.div> */}
+				{/* <motion.div
 					whileHover={{
 						scale: 1.2,
 						transition: {
@@ -58,7 +58,7 @@ const Footer = () => {
 					>
 						<LinkedInIcon className={classes.icon} />
 					</a>
-				</motion.div>
+				</motion.div> */}
 				<motion.div
 					whileHover={{
 						scale: 1.2,
@@ -67,7 +67,7 @@ const Footer = () => {
 						},
 					}}
 				>
-					<a href="https://www.instagram.com/nikhiljugale007/" target="_blank">
+					<a href="https://instagram.com/_kunaltaleda?igshid=YmMyMTA2M2Y=" target="_blank">
 						<InstagramIcon className={classes.icon} />
 					</a>
 				</motion.div>
@@ -77,7 +77,7 @@ const Footer = () => {
 				<EmailIcon className={classes.icon} /> */}
 			</div>
 			<div style={{ color: "#000" }}>
-				or drop mail at <mark>nikhiljugale007@gmail.com</mark>
+				or drop mail at <mark>taledakunal@gmail.com</mark>
 			</div>
 		</div>
 	);

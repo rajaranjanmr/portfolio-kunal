@@ -96,15 +96,15 @@ export default function Header() {
           <a href="/">Articles</a>
           <a href="/">About</a>
           <button>Logout</button> */}
-          <a  href="#experience">
+          {/* <a  href="#experience">
  					Experience
- 				</a>
+ 				</a> */}
  				<a  href="#projects">
  					Projects
  				</a>
- 				<a href="#blogs">
+ 				{/* <a href="#blogs">
  					Blogs
- 				</a>
+ 				</a> */}
  				<a  href="#contact">
  					Contact
  				</a>

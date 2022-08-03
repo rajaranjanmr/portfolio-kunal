@@ -52,13 +52,9 @@ const About = () => {
 				<Grid container spacing={3} className={classes.cardContainer}>
 					<Grid item sm={12} md={6}>
 						Hi again.
-						<br /> I am Web developer( MERN stack) with a demonstrated history
-						of working on projects and an enthusiastic learner.I am an
-						adaptable, hard-working, honest, confident communicator, and always
-						trying to expand my knowledge.
+						<br /> I aim for my work to be uniquely beautiful without trying too hard.
 						<br />
-						I'm interested in Web Development, Learning New Things & Building
-						Side Projects.
+						I'm interested in photography, video edititing & modelling.
 					</Grid>
 					<Grid
 						item

@@ -13,10 +13,10 @@ function App() {
 		<div className="App">
 			<Header />
 			<MainIntro />
-			<Experience />
+			{/* <Experience /> */}
 			<Projects />
 			<NeogCampProjects />
-			<Blog />
+			{/* <Blog /> */}
 			<Skills />
 			<About />
 			<Footer />

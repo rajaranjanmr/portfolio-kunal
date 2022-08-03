@@ -36,13 +36,13 @@ const NeogCampProjects = () => {
 	const data = [
 		{
 			name: "Profit or Loss",
-			description: [
-				"Take initial and current stock price and quantity as input andTell the user how much profit or loss he/she is making on a stock.",
-			],
+			// description: [
+			// 	"Take initial and current stock price and quantity as input andTell the user how much profit or loss he/she is making on a stock.",
+			// ],
 			technology: ["react js"],
 			imageURL: ProfitLoss,
-			codeLink: "https://github.com/nikhiljugale007/profit-loss-react-app",
-			liveLink: "https://profit-loss-react-app.netlify.app",
+			///codeLink: "https://github.com/nikhiljugale007/profit-loss-react-app",
+			//liveLink: "https://profit-loss-react-app.netlify.app",
 		},
 		{
 			name: "Birthday Pallindrome",
@@ -157,8 +157,8 @@ const NeogCampProjects = () => {
 	];
 	return (
 		<div className={classes.root} id="section1">
-			<div style={{ fontSize: "50px" }}>
-				<Box p={2}>NeogCamp Projects</Box>
+			{/* <div style={{ fontSize: "50px" }}>
+				<Box p={2}>Personal Photography</Box>
 			</div>
 			<Box m={4} p={4}>
 				<Grid container spacing={3} className={classes.cardContainer}>
@@ -168,7 +168,7 @@ const NeogCampProjects = () => {
 						</Grid>
 					))}
 				</Grid>
-			</Box>
+			</Box> */}
 		</div>
 	);
 };

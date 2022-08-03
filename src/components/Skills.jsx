@@ -8,6 +8,13 @@ import js_logo from "../images/js_logo.svg";
 import cpp_logo from "../images/cpp_logo.svg";
 import java_logo from "../images/java_logo.svg";
 import mongodb_logo from "../images/mongodb_logo.svg";
+import photography_logo from "../images/photography1.jpeg";
+import kinemaster from "../images/kinemaster.png";
+import photoedit from "../images/photoedit.jpeg";
+import videoedit from "../images/videoediting.webp";
+//import  from "../images/photography1.jpeg";
+
+
 import { motion } from "framer-motion";
 
 const useStyles = makeStyles((theme) => ({
@@ -66,13 +73,13 @@ const useStyles = makeStyles((theme) => ({
 const Skills = () => {
 	const classes = useStyles();
 	const data = [
-		{ logo: html_logo, def: "HTML" },
-		{ logo: css_logo, def: "CSS" },
-		{ logo: react_logo, def: "REACT" },
-		{ logo: mongodb_logo, def: "MONGODB" },
-		{ logo: js_logo, def: "Javascript" },
-		{ logo: cpp_logo, def: "CPP" },
-		{ logo: java_logo, def: "JAVA" },
+		{ logo: photography_logo, def: "HTML" },
+		{ logo: kinemaster, def: "CSS" },
+		{ logo: photoedit, def: "REACT" },
+		{ logo: videoedit, def: "MONGODB" },
+		// { logo: js_logo, def: "Javascript" },
+		// { logo: cpp_logo, def: "CPP" },
+		// { logo: java_logo, def: "JAVA" },
 	];
 	return (
 		<div className={classes.root} id="skills">
